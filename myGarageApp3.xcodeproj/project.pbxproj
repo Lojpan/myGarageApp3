@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09AACD2324030B25009327A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09AACD2224030B25009327A8 /* main.cpp */; };
+		09AACD2A24030B49009327A8 /* Garage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09AACD2924030B49009327A8 /* Garage.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		09AACD1F24030B25009327A8 /* myGarageApp3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myGarageApp3; sourceTree = BUILT_PRODUCTS_DIR; };
 		09AACD2224030B25009327A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		09AACD2924030B49009327A8 /* Garage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Garage.cpp; sourceTree = "<group>"; };
+		09AACD2B24030B5B009327A8 /* Garage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Garage.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				09AACD2224030B25009327A8 /* main.cpp */,
+				09AACD2924030B49009327A8 /* Garage.cpp */,
+				09AACD2B24030B5B009327A8 /* Garage.hpp */,
 			);
 			path = myGarageApp3;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AACD2A24030B49009327A8 /* Garage.cpp in Sources */,
 				09AACD2324030B25009327A8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
